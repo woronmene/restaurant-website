@@ -6,7 +6,7 @@
   }
 </script>
 
-<nav>
+<nav class="fixed w-full">
     <div class="w-full relative  bg-white">
         <div class="w-full px-5 md:px-10 flex items-center gap-[50px] lg:gap-[100px] xl:gap-[200px] py-1 ">
             <div class="w-[140px] flex-0 cursor-pointer">
