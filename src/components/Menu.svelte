@@ -1,4 +1,4 @@
-<section class="w-full flex flex-col px-20 py-10" id="menu">
+<section class="w-full flex flex-col px-10 lg:px-20 py-10" id="menu">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
             <div class="aspect-video  w-full bg-[url('/hero.png')] bg-cover bg-center"></div>
             <div class="aspect-video  w-full bg-[url('/hero.png')] bg-cover bg-center"></div>
