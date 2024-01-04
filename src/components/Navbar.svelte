@@ -56,9 +56,9 @@
 <div class={`lg:hidden ${isMobileMenuOpen ? 'right-0' : 'right-[-100%]'} fixed top-0  h-full w-full md:w-1/2 bg-white transition-all ease-in-out duration-300 z-50`}>
 
     <div class="p-4 mt-20 ">
-      <a href="#hero" class="block py-2 hover:text-[#FF6244]">Home</a>
-      <as href="#menu" class="block py-2 hover:text-[#FF6244]">Our Menu</as>
-      <a href="#cta" class="block py-2 hover:text-[#FF6244]">Get in Touch</a>
+      <a href="#hero" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Home</a>
+      <as href="#menu" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Our Menu</as>
+      <a href="#cta" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Get in Touch</a>
     </div>
 
     <button class="absolute top-3 right-3" on:click={toggleMobileMenu}>
