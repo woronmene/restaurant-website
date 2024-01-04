@@ -8,7 +8,7 @@
 
 <nav>
     <div class="w-full relative  bg-white">
-        <div class="w-full px-10 flex items-center gap-[50px] lg:gap-[100px] xl:gap-[200px] py-4 ">
+        <div class="w-full px-10 flex items-center gap-[50px] lg:gap-[100px] xl:gap-[200px] py-1 ">
             <div class="w-[140px] flex-0">
                 <img class="w-full" src="/logo.png" alt="">
             </div>
