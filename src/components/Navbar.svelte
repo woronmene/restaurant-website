@@ -57,7 +57,7 @@
 
     <div class="p-4 mt-20 ">
       <a href="#hero" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}>hOME</a>
-      <as href="#menu" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}> oUR MENU</as>
+      <a href="#menu" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}> oUR MENU</a>
       <a href="#cta" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}> gET IN TOUCH</a>
     </div>
 
