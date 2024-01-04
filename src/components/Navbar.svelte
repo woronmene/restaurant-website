@@ -8,8 +8,8 @@
 
 <nav>
     <div class="w-full relative  bg-white">
-        <div class="w-full px-10 flex items-center gap-[50px] lg:gap-[100px] xl:gap-[200px] py-1 ">
-            <div class="w-[140px] flex-0">
+        <div class="w-full px-5 md:px-10 flex items-center gap-[50px] lg:gap-[100px] xl:gap-[200px] py-1 ">
+            <div class="w-[140px] flex-0 cursor-pointer">
                 <img class="w-full" src="/logo.png" alt="">
             </div>
 
@@ -35,7 +35,7 @@
                     </div>
             </div>
 
-               <button class="lg:hidden absolute top-[40%] right-[10px]" on:click={toggleMobileMenu}>
+               <button class="lg:hidden absolute top-[50%] -translate-y-[50%] right-[10px] cursor-pointer" on:click={toggleMobileMenu}>
                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,12 +56,12 @@
 <div class={`lg:hidden ${isMobileMenuOpen ? 'right-0' : 'right-[-100%]'} fixed top-0  h-full w-full md:w-1/2 bg-white transition-all ease-in-out duration-300 z-50`}>
 
     <div class="p-4 mt-20 ">
-      <a href="#hero" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Home</a>
-      <as href="#menu" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Our Menu</as>
-      <a href="#cta" class="block py-2 hover:text-[#FF6244]" on:click={toggleMobileMenu}>Get in Touch</a>
+      <a href="#hero" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}>hOME</a>
+      <as href="#menu" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}> oUR MENU</as>
+      <a href="#cta" class="block py-2 hover:text-[#FF6244] cursor-pointer" on:click={toggleMobileMenu}> gET IN TOUCH</a>
     </div>
 
-    <button class="absolute top-3 right-3" on:click={toggleMobileMenu}>
+    <button class="absolute top-3 right-3 cursor-pointer" on:click={toggleMobileMenu}>
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
