@@ -36,8 +36,13 @@
             </div>
 
                <button class="lg:hidden absolute top-[40%] right-[10px]" on:click={toggleMobileMenu}>
-                click
+                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
         </button>
+        
 
         </div>
 
@@ -51,13 +56,17 @@
 <div class={`lg:hidden ${isMobileMenuOpen ? 'right-0' : 'right-[-100%]'} fixed top-0  h-full w-full md:w-1/2 bg-white transition-all ease-in-out duration-300 z-50`}>
 
     <div class="p-4 mt-20 ">
-      <a href="/" class="block py-2 hover:text-[#FF6244]">Home</a>
-      <as href="/" class="block py-2 hover:text-[#FF6244]">Our Menu</as>
-      <a href="/" class="block py-2 hover:text-[#FF6244]">Get in Touch</a>
+      <a href="#hero" class="block py-2 hover:text-[#FF6244]">Home</a>
+      <as href="#menu" class="block py-2 hover:text-[#FF6244]">Our Menu</as>
+      <a href="#cta" class="block py-2 hover:text-[#FF6244]">Get in Touch</a>
     </div>
 
     <button class="absolute top-3 right-3" on:click={toggleMobileMenu}>
-        close
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    d="M6 18L18 6M6 6l12 12"></path>
+</svg>
     </button>
   </div>
     </div>
