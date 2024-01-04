@@ -17,17 +17,17 @@
 
                     <div class="flex lg:w-2/3 xl:w-1/2 justify-between text-xs tracking-3">
                         <li class="duration-200 hover:text-[#FF6244]">
-                            <a href="/">
+                            <a href="#hero">
                                 hOME
                             </a>
                         </li>
                         <li class="duration-200 hover:text-[#FF6244]">
-                            <a href="/">
+                            <a href="#menu">
                                 oUR MENU
                             </a>
                         </li>
                         <li class="duration-200 hover:text-[#FF6244]">
-                            <a href="/">
+                            <a href="#cta">
                             gET IN TOUCH
                             </a>
                         </li>

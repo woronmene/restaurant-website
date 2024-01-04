@@ -1,4 +1,4 @@
-<section class="w-full bg-[#FDF8F1] py-20">
+<section class="w-full bg-[#FDF8F1] py-20" id="cta">
     <div class=" ">
 
         <div class="w-2/3 mx-auto flex justify-center items-center gap-20">
